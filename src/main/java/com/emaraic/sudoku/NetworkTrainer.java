@@ -66,7 +66,7 @@ public class NetworkTrainer {
 
     public static void main(String[] args) throws Exception {
 
-        //Initialize the user interface backend
+        //Initialize the user interface backend, it is like tensorboard
         UIServer uiServer = UIServer.getInstance();
 
         //Configure where the network information (gradients, score vs. time etc) is to be stored. Here: store in memory.
